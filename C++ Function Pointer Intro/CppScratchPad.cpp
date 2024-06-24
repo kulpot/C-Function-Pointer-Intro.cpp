@@ -7,4 +7,5 @@ using std::endl;
 void main()
 {
 	int myInt;
+	int* myPrt = &myInt;
 }
