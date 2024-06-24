@@ -8,6 +8,8 @@ void foo() {}
 
 void main()
 {
-	int myInt;		// 4 bytes
-	int* myPrt = &myInt;
+	
+	
+	//int myInt;		// 4 bytes
+	//int* myPrt = &myInt;
 }
