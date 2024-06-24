@@ -8,7 +8,9 @@ void foo() {}
 
 void main()
 {
-	
+	foo();
+
+
 	
 	//int myInt;		// 4 bytes
 	//int* myPrt = &myInt;
