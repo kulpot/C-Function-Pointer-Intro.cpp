@@ -6,6 +6,6 @@ using std::endl;
 
 void main()
 {
-	int myInt;
+	int myInt;		// 4 bytes
 	int* myPrt = &myInt;
 }
