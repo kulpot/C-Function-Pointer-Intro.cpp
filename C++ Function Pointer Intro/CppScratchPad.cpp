@@ -13,7 +13,7 @@ void goo(int) {}
 
 void main()
 {
-	void (*myFunctionPtr) () = goo;
+	void (*myFunctionPtr) () = goo;		//error: Signature not matching
 	myFunctionPtr();
 
 
