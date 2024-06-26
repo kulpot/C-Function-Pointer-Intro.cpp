@@ -13,7 +13,7 @@ void main()
 {
 	void (*myFunctionPtr) () = foo;
 	myFunctionPtr();
-	foo();
+	//foo();
 
 
 	
