@@ -11,7 +11,7 @@ void foo()		// an address
 
 void main()
 {
-	foo();
+	//foo();
 	void (*myFunctionPtr) () = foo;
 
 
