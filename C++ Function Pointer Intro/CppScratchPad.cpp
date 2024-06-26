@@ -13,8 +13,13 @@ void goo(int) {}
 
 void main()
 {
-	void (*myFunctionPtr) () = foo;
-	myFunctionPtr();		//output: foo()
+	void (*myFunctionPtr) () = goo;
+	myFunctionPtr();
+
+
+
+	//void (*myFunctionPtr) () = foo;
+	//myFunctionPtr();		//output: foo()
 	//foo();
 
 
