@@ -9,6 +9,8 @@ void foo()		// an address
 	cout << "foo()" << endl;
 }
 
+void goo(int) {}
+
 void main()
 {
 	void (*myFunctionPtr) () = foo;
