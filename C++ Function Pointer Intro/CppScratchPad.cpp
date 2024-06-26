@@ -14,6 +14,7 @@ void main()
 	//foo();
 	void (*myFunctionPtr) () = foo;
 	myFunctionPtr();
+	foo();
 
 
 	
