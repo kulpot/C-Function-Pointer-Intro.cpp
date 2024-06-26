@@ -12,7 +12,7 @@ void foo()		// an address
 void main()
 {
 	void (*myFunctionPtr) () = foo;
-	myFunctionPtr();
+	myFunctionPtr();		//output: foo()
 	//foo();
 
 
